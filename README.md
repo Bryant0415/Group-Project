@@ -42,14 +42,17 @@ The following image demonstrates the application appearance:
 
 
 
-image.png
 
 
 
 
 
 
-The following is the url to the diplyed web application:
+
+
+
+
+The following is the url to the displayed web application:
 
 
 ## Description
