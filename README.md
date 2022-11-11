@@ -42,7 +42,10 @@ The following image demonstrates the application appearance:
 
 
 
-![image](https://user-images.githubusercontent.com/111001779/201251598-39b5a78c-0c5b-422d-b5cf-be05f7d20c59.png)
+
+
+
+![image](https://user-images.githubusercontent.com/111001779/201368626-8047e5ba-379c-47de-8ad4-426543d9266a.png)
 
 
 
