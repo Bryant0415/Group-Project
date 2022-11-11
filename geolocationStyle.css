@@ -1,4 +1,12 @@
-#map {
-  height: 700px;
-  width: 100%;
+#employee-location {
+  width: 15rem;
+  height: 3rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 30px;
+}
+
+#map.location {
+  margin-left: 30px;
 }
