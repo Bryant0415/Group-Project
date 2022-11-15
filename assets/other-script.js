@@ -1,4 +1,5 @@
 function createTimeCard() {
+
     let timeCard = document.createElement('div');
     timeCard.html;
     timeCard.className = "box-styling";
@@ -36,6 +37,21 @@ function createTimeCard() {
     timeCard.appendChild(clockOut);
     clockOut.idList.add("clockOut");
     clockOut.textContent += "Clock-Out";
+
+
+
+    //code for time to money cal
+    
+
+    var dayMoney = document.createElement('li')
+    dayMoney.html;
+    var employeeMoney = parseInt(moment().format("hh:mm"));
+    dayMoney.textContent += "Day: $" + employeeMoney * 8;
+    cardContent.appendChild(dayMoney);
+
+    
+
+
 
     }
 
