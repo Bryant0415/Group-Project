@@ -1,5 +1,11 @@
 #location {
-    height: 25%;
+    height: 50%;
+    width: 25%;
+    margin-top: 200px;
+    margin-right: 150px;
+    display: flex;
+    float: right;
+
 }
 
 html, body {
