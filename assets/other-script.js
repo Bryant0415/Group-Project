@@ -34,8 +34,13 @@ function createTimeCard() {
     let clockOut = document.createElement('button');
     clockOut.html;
     timeCard.appendChild(clockOut);
-    clockOut.idList.add("clockOut");
+    clockOut.setAttribute('id', 'clockOut');
     clockOut.textContent += "Clock-Out";
+
+    }
+
+    function endShift() {
+
 
     }
 
