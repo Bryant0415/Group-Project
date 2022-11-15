@@ -1,0 +1,72 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  html {
+    height: 100%;
+  }
+  
+  body {
+    min-height: 100%;
+    line-height: 1;
+    font-family: sans-serif;
+  }
+  
+  h1, h2, h3, h4, h5, h6 {
+    font-size: 100%;
+  }
+  
+  input, select, option, optgroup, textarea, button,
+  pre, code {
+    font-size: 100%;
+    font-family: inherit;
+  }
+  
+ ol, ul {
+    list-style: none;
+  }
+  
+  /* #clockIn {
+    background: linear-gradient(
+                                to right,
+                                #d8363a,
+                                #dd3675
+                              );
+  } */
+
+  .container {
+    display: flex;
+    justify-content: center;
+    height:auto;
+    min-width: 280px;
+    max-width: 2000px;
+    flex-wrap: wrap;
+  }
+
+  .box-styling {
+    flex: auto;
+    color: #000;
+    background-color: #ebe580;
+    min-width: 280px;
+    max-width: 280px;
+    height: 350px;
+    text-size-adjust: auto;
+    padding: 5px;
+    border-radius: 8px;
+    margin: 20px;
+    display: inline-block;
+  }
+
+  li {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: 5px;
+  }
+
+  .clockOut {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: 5px;
+  }
