@@ -1,5 +1,5 @@
-# Group-Project 01
-Employee Time Tracker
+# Time Clock
+Group-Project 01
 
 ## User Story
 
