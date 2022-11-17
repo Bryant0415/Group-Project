@@ -2,7 +2,6 @@ var clockInBtn = document.getElementById('clockInBtn');
 var startTime = document.getElementById('inTime');
 var endTime = document.getElementById('outTime');
 var timeWorked = document.getElementById('totalTime');
-var clock = document.getElementById('clock');
 
 clockInBtn.addEventListener("click", timeStamp);
 
