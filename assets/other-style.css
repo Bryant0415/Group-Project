@@ -45,13 +45,12 @@
     flex-wrap: wrap;
   }
 
-  .box-styling {
+  .timeContainer {
     flex: auto;
     color: #000;
     background-color: #ebe580;
-    min-width: 280px;
-    max-width: 280px;
-    height: 350px;
+    width: fit-content;
+    height: fit-content;
     text-size-adjust: auto;
     padding: 5px;
     border-radius: 8px;
