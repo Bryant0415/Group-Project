@@ -56,7 +56,7 @@ The following image demonstrates the application appearance:
 
 
 
-The following is the url to the displayed web application:https://bryant0415.github.io/Time-Clock/timeCard.html
+The following is the url to the displayed web application:https://bryant0415.github.io/Time-Clock/
 
 
 
