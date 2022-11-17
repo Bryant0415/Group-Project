@@ -1,42 +1,44 @@
-function createTimeCard() {
+var clockInBtn = document.getElementById('clockInBtn');
+var startTime = document.getElementById('inTime');
+var endTime = document.getElementById('outTime');
+var timeWorked = document.getElementById('totalTime');
+var clock = document.getElementById('clock');
 
-    let timeCard = document.createElement('div');
-    timeCard.html;
-    timeCard.className = "box-styling";
+clockInBtn.addEventListener("click", timeStamp);
 
-    let container = document.querySelector('.container');
-    container.appendChild(timeCard);
 
-    let cardContent = document.createElement('ul')
-    cardContent.html;
+function timeStamp (event){
+  
+  var timeStamp = moment().format("[Date: ]DD/MM/YYYY [Time: ] HH:mm:ss");
+  var id = event.target.id;
+  
+  if(id === 'clockOutBtn') {
+    var localclockInBtn = localStorage.getItem("clockInBtn");
+    var clockOut = moment().format("DD/MM/YYYY HH:mm:ss");
 
-    let employeeName = document.createElement('li')
-    employeeName.html;
-    employeeName.textContent += "Steve";
-    cardContent.appendChild(employeeName);
+    var diff = moment.utc(moment(clockOut, "DD/MM/YYYY HH:mm:ss").diff(moment(localclockInBtn, "DD/MM/YYYY HH:mm:ss"))).format("HH:mm:ss");
 
-    let employeePos = document.createElement('li')
-    employeePos.html;
-    employeePos.textContent += "Line Cook";
-    cardContent.appendChild(employeePos);
+    var node = document.createElement('li');
+      node.append(timeStamp);
+      document.getElementById("outTime").appendChild(node);
+    
+    var node = document.createElement('li');
+      node.append("Total: " + diff);
+      document.getElementById("totalTime").appendChild(node);
+    
+      document.getElementById('clockOut').id = 'clockInBtn';
 
-    let timeStart = document.createElement('li')
-    timeStart.html;
-    timeStart.textContent += "Start Time: " + moment().format("hh:mm");
-    cardContent.appendChild(timeStart);
+    
+  } else {
+      localStorage.setItem(id, timeStamp);
+      var node = document.createElement('li');
+      node.append(timeStamp);
+      document.getElementById("inTime").appendChild(node);
+      clockInBtn.id = 'clockOutBtn';
+  }
+  
+}
 
-    timeCard.appendChild(cardContent);
-
-    let timeStop = document.createElement('li')
-    timeStop.html;
-    timeStop.textContent +- "Stop Time: " + clockoutTime;
-    cardContent.appendChild(timeStop);
-
-    let clockOut = document.createElement('button');
-    clockOut.html;
-    timeCard.appendChild(clockOut);
-    clockOut.setAttribute('id', 'clockOut');
-    clockOut.textContent += "Clock-Out";
 
 
 
