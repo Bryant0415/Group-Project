@@ -32,29 +32,22 @@
 
 <body>
 
-<header class="text-center pt-1 mb-12 pb-1">
-  <div class="topBar">
-    <button
-id="clockIn"
-class="inline-block px-6 py-2.5 text-white font-medium text-xs leading-tight uppercase rounded shadow-md hover:bg-blue-700 hover:shadow-lg focus:shadow-lg focus:outline-none focus:ring-0 active:shadow-lg transition duration-150 ease-in-out w-full mb-3"
-type="button"
-data-mdb-ripple="true"
-data-mdb-ripple-color="light"
-style="
-  background: linear-gradient(
-    to right,
-    #ee7724,
-    #d8363a,
-    #dd3675,
-    #b44593
-  );
-    "> Clock-in </button>
-  </div>
 
-</header>
+      <div class="timeClock">
+        </div>
+      </div>
+      <div class="clockInBtnBtnArea">
+        <div class="timeContainer">
+          <ul id="inTime"></ul>
+          <ul  id="outTime"></ul>
+          <ul id="totalTime"></ul>
+        </div>
+        <button id="clockInBtn">Clock In/Clock Out</button>
+      </div><br>
+  
 
 <!--Tracking Employees Location-->
-<div id="location"></div>
+<div id="location"></div><br>
 
 
 <div class="container w-full">
