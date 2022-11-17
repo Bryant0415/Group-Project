@@ -49,9 +49,6 @@ function createTimeCard() {
     dayMoney.textContent += "Day: $" + employeeMoney * 8;
     cardContent.appendChild(dayMoney);
 
-    
-
-
 
     }
 
