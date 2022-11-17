@@ -42,21 +42,3 @@ function timeStamp (event){
 
 
 
-    //code for time to money cal
-    
-
-    var dayMoney = document.createElement('li')
-    dayMoney.html;
-    var employeeMoney = parseInt(moment().format("hh:mm"));
-    dayMoney.textContent += "Day: $" + employeeMoney * 8;
-    cardContent.appendChild(dayMoney);
-
-
-    }
-
-    function endShift() {
-
-
-    }
-
-document.getElementById('clockIn').addEventListener('click', createTimeCard);
